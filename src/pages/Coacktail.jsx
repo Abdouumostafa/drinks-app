@@ -4,7 +4,7 @@ import Wrapper from "../assets/wrappers/CocktailPage";
 
 
 const singleCoacktailUrl = 'https://www.thecocktaildb.com/api/json/v1/1/lookup.php?i='
-
+ 
 export const loader = async ({params})=>{
   const {id} = params;
   // console.log(params, id)
